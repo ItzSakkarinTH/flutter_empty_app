@@ -1,15 +1,28 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class SecondPage extends StatefulWidget {
+  const SecondPage({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<SecondPage> createState() => _SecondPageState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text('SAK-JIT APP')),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+
+          children: [
+            Text('Hello Everyone'),
+            Text('Hello Pitoon'),
+            Text('Hello Pitoon 2'),
+          ],
+        ),
+      ),
+    );
   }
 }
