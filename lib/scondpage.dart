@@ -23,7 +23,7 @@ class _SecondPageState extends State<SecondPage> {
             ),
             SizedBox(height: 20),
             Text(
-              'Sakkarin',
+              'this is Sakkarin',
               style: TextStyle(
                 fontFamily: 'Courier New',
                 fontSize: 30,
