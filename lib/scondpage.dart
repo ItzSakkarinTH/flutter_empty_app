@@ -17,9 +17,37 @@ class _SecondPageState extends State<SecondPage> {
           mainAxisAlignment: MainAxisAlignment.center,
 
           children: [
-            Text('Hello Everyone'),
-            Text('Hello Pitoon'),
-            Text('Hello Pitoon 2'),
+            Text(
+              'Hello Everyone',
+              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Sakkarin',
+              style: TextStyle(
+                fontFamily: 'Courier New',
+                fontSize: 30,
+                color: Colors.blue,
+              ),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'AND',
+              style: TextStyle(
+                fontFamily: 'Courier New',
+                fontSize: 30,
+                color: const Color.fromARGB(255, 8, 234, 91),
+              ),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'jitnipid',
+              style: TextStyle(
+                fontFamily: 'monospace',
+                fontSize: 29,
+                color: Colors.red,
+              ),
+            ),
           ],
         ),
       ),
